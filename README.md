@@ -39,6 +39,14 @@ Any player
 | P | Pause game |
 | Q | Quit game |
 
+### Note
+
+Please note that, if you are using MacOS, you may need to disable the key press and hold feature, in order to play smoothly. Please run the following command in terminal, and log in your account again to make it effective.
+
+```
+defaults write -g ApplePressAndHoldEnabled -bool false
+```
+
 ## Screenshots
 
 <img src="screenshots/screenshot_1.png" width="480">
